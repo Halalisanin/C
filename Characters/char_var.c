@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 /**
+ *
  * main - Entry point of the program
  *
- * Return:  Always 0 (Success)
+ * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
-int number = 25;
-printf("Number is %d\n", number);
+char c = 'h';
+printf("character: %c\n", c);
+
 return (0);
 }
